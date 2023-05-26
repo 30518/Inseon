@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +37,7 @@
     
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
 
