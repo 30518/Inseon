@@ -37,7 +37,7 @@
     
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
 
