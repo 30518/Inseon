@@ -26,7 +26,7 @@
   <button id="send">전송</button>
 
   <script type="module">
-    import { Configuration, OpenAIApi } from 'http://cdn.skypack.dev/openai';
+    import { Configuration, OpenAIApi } from 'https://www.skypack.dev/view/openai';
     document.querySelector('#send').addEventListener('click',function(){
         var template = `<div class="line">
         <span class="chat-box mine">${document.querySelector('#input').value} </span>
@@ -37,7 +37,7 @@
     
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
 
